@@ -10,7 +10,7 @@ resource "aws_vpc" "my_vpc" {
     git_modifiers        = "leosaragih001"
     git_org              = "saktil"
     git_repo             = "test-precommit"
-    yor_trace            = "3a675c10-2bc4-4620-8a3a-9ca10b829fff"
+    yor_trace            = "3334e634-8f36-4d22-afbe-3b51ac1903d3"
   }
 }
 
@@ -28,7 +28,7 @@ resource "aws_subnet" "my_subnet" {
     git_modifiers        = "leosaragih001"
     git_org              = "saktil"
     git_repo             = "test-precommit"
-    yor_trace            = "cf512c6b-38b8-496e-b989-eb706aad6753"
+    yor_trace            = "1d110be6-ae1f-4b6f-a496-92a993a183e1"
   }
 }
 
@@ -45,7 +45,7 @@ resource "aws_network_interface" "foo" {
     git_modifiers        = "leosaragih001"
     git_org              = "saktil"
     git_repo             = "test-precommit"
-    yor_trace            = "c6b00f19-6b71-4895-8f45-6659f166f472"
+    yor_trace            = "3dd4e830-9f6a-47a7-8282-fafd0e732b32"
   }
 }
 
@@ -66,7 +66,7 @@ resource "aws_instance" "foo" {
     git_modifiers        = "leosaragih001"
     git_org              = "saktil"
     git_repo             = "test-precommit"
-    yor_trace            = "9b8b138e-73fa-4908-af59-f5cf984a0c95"
+    yor_trace            = "8b683e94-93c1-47b1-aab1-15568b410b69"
   }
 }
 
