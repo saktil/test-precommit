@@ -1,0 +1,9 @@
+steps:
+- id: 'tag'
+  name: 'bridgecrew/yor'
+  entrypoint: 'sh'
+  args:
+  - '-c'
+  - |
+ 
+        yor tag .d . --config-file custom-tag.yaml
