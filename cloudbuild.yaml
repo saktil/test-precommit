@@ -6,4 +6,7 @@ steps:
   - '-c'
   - |
  
-        yor tag .d . --config-file custom-tag.yaml
+        yor tag .d . 
+    
+        yor tag -d . --output cli --output-json-file /hasil.json
+      
